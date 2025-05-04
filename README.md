@@ -54,23 +54,15 @@ Similar al anterior, también muestra la tabla de multiplicar de un número entr
 
 ---
 
-### 8. Gestión de facturas
+### 8 y 9. Gestión de facturas
 *Archivo:* ejercicio8-facturas.js  
 Simula un sistema para gestionar 5 facturas. Cada una contiene:  
 - Código del artículo  
 - Cantidad vendida (litros)  
-- Precio por litro  
-
-Calcula:  
+- Precio por litro   
 - Total facturado  
 - Litros vendidos del artículo 1  
 - Facturas con monto mayor a $600
-
----
-
-### 9. Cálculo de sueldos
-*Archivo:* ejercicio9-sueldos.js  
-Solicita N sueldos y determina el sueldo máximo.
 
 ---
 
