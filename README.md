@@ -28,13 +28,13 @@ Muestra el producto resultante de multiplicar los primeros 10 números impares.
 ---
 
 ### 4. Calcular el factorial de un número
-*Archivo:* ejercicio4-factorial.js  
+*Archivo:* ejercicio4.js  
 Pide un número y muestra su factorial usando un bucle.
 
 ---
 
 ### 5. Media de positivos, negativos y ceros
-*Archivo:* ejercicio5-medias.js  
+*Archivo:* ejercicio5.js  
 Solicita 10 números y calcula:  
 - Media de números positivos  
 - Media de números negativos  
@@ -43,7 +43,7 @@ Solicita 10 números y calcula:
 ---
 
 ### 6. Tabla de multiplicar (número entre 0 y 10)
-*Archivo:* ejercicio6-tablaMultiplicar1.js  
+*Archivo:* ejercicio6.js  
 Pide un número entre 0 y 10, y muestra su tabla de multiplicar.
 
 ---
@@ -80,9 +80,3 @@ Genera un contador con formato X-X-X-X-X desde 00000 hasta 99999, reemplazando e
 
 ---
 
-## Ejecución
-
-Desde la terminal, puedes correr cualquier script así:
-
-```bash
-node ejercicio1-cuadrado.js
