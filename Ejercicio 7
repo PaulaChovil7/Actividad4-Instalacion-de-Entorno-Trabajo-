@@ -1,0 +1,55 @@
+// Array para almacenar la facturas
+let facturas=[];
+
+//funcion para añadir una factura(){
+let codigoArticulo=
+parseInt(prompt("indroduce el codigo del articulo:"));
+let candidadVendida=
+parseFloat(prompt("Introduce la cantidad vendida en litros:"));
+let precioPorLitro=
+parseFloat(prompt("indroce el precio por litros:"));
+
+it (isNaN(codigoArticulo)||
+isNaN(candidadVendida)||
+isNaN(precioPorLitro)||
+candidadVendida<=0||
+precioPorLitro<=0)
+    alert("porfavor,introducevaloresnumericosvalidos.ypreciodebesermayoresacero.");
+    return;
+
+    let factura={
+        codigoArticulo:codigoArticulo,
+        candidadVendida:
+        candidadVendida,
+        precioPorLitro:precioPorLitro,
+        totalFactura:candidadVendida*
+        precioPorLitro
+
+    //funcion para calcular la facturacion total
+    
+
+    }
+    let total=0;
+    for(let i=0;i<facturas.length;i++){
+        total+facturas[i].totalFactura;
+        returntotal;
+
+    }
+//funcion para calcular la cantidad de litros vendidos de articulo especifico
+Function
+calcularlitrosVendidosArticulos(codigoArticulo)
+    let totalLitros=0;
+    for(let i=0;i<facturas.length;i++){
+        if(facturas[i].codigoArticulo===
+            codigoArticulo){
+                totalLitros+=
+                facturas[i].candidadVendida;
+
+            }
+    }
+returntotalLitros;
+//funcion para contar la facturas con un total a 600
+Function
+contarfacturasMayores600()
+    let contador
+
